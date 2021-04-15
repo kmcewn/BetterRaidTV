@@ -1,0 +1,17 @@
+{
+    "name": "BetterRaidTV",
+    "description": "Removes referral codes from any twitch raid (I have no idea why it says it needs access to your history all it accesses is your current tabs :/ )",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "code.js"
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "icons": {
+        "16":"icon128.png",
+        "48":"icon128.png",
+        "128":"icon128.png"
+    }
+}
